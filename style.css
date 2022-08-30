@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&family=Silkscreen&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body{
+
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(173, 56, 56);
+    font-family: 'Silkscreen', cursive;
+   
+}
+
+.container
+{
+/* border: 5px solid black; */
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(2.7px);
+-webkit-backdrop-filter: blur(2.7px);
+/* border: 1px solid rgba(255, 255, 255, 0.15); */
+/* width: fit-content; */
+margin: 0 auto;
+background-color: rgb(173, 56, 56);
+border-radius: 25px;
+/* width: 50vh; */
+height: fit-content;
+top: 170px;
+position: relative;
+
+}
+
+.lights{
+    position: relative;
+    bottom: 100px;
+    right: 100px;
+    z-index: 1;
+}
+#signalButton{
+    position: relative;
+  bottom: 105px;
+  width: 100px;
+  height: 100px;
+  background: #4bc475;
+  border: 1px solid grey;
+    left: 10px;
+    border-radius: 50%;
+    animation-name: color;
+    animation-duration: 6s;
+    animation-iteration-count:infinite; 
+    background-color: orange;
+    
+}
+
+#rgbLights{
+    width: 100px;
+    position: relative;
+    bottom: 50px;
+    left: 5%;
+}
+
+.pokeNo{
+    position: relative;
+    left: 90vw;
+}
+
+
+.searchBox{
+    position: relative;
+    margin: 0 auto;
+  left: 5%;
+  top: 80px;
+
+}
+
+#searchButton{
+     height: 25px;
+    border-radius: 5px;
+    position: relative;
+    z-index: 5;
+    bottom: 30vh;
+    left: 40vw; 
+    width: 30px;
+}
+
+#search{
+    height: 25px;
+    border-radius: 5px;
+    position: relative;
+    z-index: 5;
+    bottom: 30vh;
+    left: 40vw;    
+    
+  
+
+    
+}
+
+.pokeName
+{
+     width: 50%;
+    background-color: rgb(7, 7, 200);
+    border-radius: 15px;
+    margin: 0 auto;
+}
+
+#pokeImage {
+    width: 90%;
+    height:fit-content;
+    background: rgb(101, 10, 10);
+    border-radius: 20px;
+    position: relative;
+    margin: 0 auto;
+    border: 5px solid black;
+    bottom: 200px;
+  }
+
+  #pokemonImage{
+    width: 40%;
+  }
+
+  #pokemonImage2{
+    width: 40%;
+  }
+
+  .pokemon img{
+    position: relative;
+    left: 10%;
+    bottom: 80px;
+  }
+
+  #pokemon{
+    width: 125px;
+    margin: auto;
+    display: block;
+  }
+
+  .pokeTypeOne{
+    width: 50%;
+    background-color: rgb(7, 7, 200);
+    border-radius: 15px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+  }
+
+  .pokeTypeTwo{
+    width: 50%;
+    background-color: red;
+    border-radius: 15px;
+    margin: 0 auto;
+    bottom: 50px;
+    position: relative;
+    text-align: center;
+  }
+
+  .mainContent{
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+   
+  }
+
+  .moveList li {
+    display: inline-block;
+    background-color: grey;
+    border-radius: 15px;
+    padding: 5px;
+  }
+
+  .attributes{
+    background-color: red;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(2.7px);
+-webkit-backdrop-filter: blur(2.7px);
+margin: 0 auto;
+background-color: rgb(173, 56, 56);
+border-radius: 15px;
+  }
+
+  .attributes ul li{
+list-style-type: none;
+padding:5px;
+  }
+  
+  .HP {
+    width: 50%;
+    background-color: RED;
+    border-radius: 15px;
+    margin: 0 auto;
+ 
+  }
+  .ATK {
+    width: 50%;
+    background-color: orange;
+    border-radius: 15px;
+    margin: 0 auto;
+  }
+
+  .DEF {
+    width: 50%;
+    background-color: rgb(169, 169, 255);
+    border-radius: 15px;
+    margin: 0 auto;
+  }
+  .SPD {
+    width: 50%;
+    background-color: rgb(7, 7, 200);
+    border-radius: 15px;
+    margin: 0 auto;
+  }
+
+  #redButton{
+    width: 105px;
+    position: absolute;
+    top: 250px;
+  }
+
+  
+
+  #redButton2{
+    width: 70px;
+    position: absolute;
+    bottom: 320px;
+    left: 20%;
+
+  }
+  #redButton3{
+    width: 70px;
+    position: absolute;
+    bottom: 320px;
+    left: 35%;
+  }
+
+  
+
+  @keyframes color {
+    0% {background-color: #fff;}
+    
+    100% {background-color: #8dc7da;}
+}
