@@ -12,22 +12,14 @@ body{
     width: 100vw;
     background-color: rgb(173, 56, 56);
     font-family: 'Silkscreen', cursive;
+    font-size: 3rem;
    
 }
 
 .container
 {
-/* border: 5px solid black; */
-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-backdrop-filter: blur(2.7px);
--webkit-backdrop-filter: blur(2.7px);
-/* border: 1px solid rgba(255, 255, 255, 0.15); */
-/* width: fit-content; */
 margin: 0 auto;
-background-color: rgb(173, 56, 56);
 border-radius: 25px;
-/* width: 50vh; */
-height: fit-content;
 top: 170px;
 position: relative;
 
@@ -41,7 +33,7 @@ position: relative;
 }
 #signalButton{
     position: relative;
-  bottom: 105px;
+  bottom: 155px;
   width: 100px;
   height: 100px;
   background: #4bc475;
@@ -58,7 +50,7 @@ position: relative;
 #rgbLights{
     width: 100px;
     position: relative;
-    bottom: 50px;
+    bottom: 125px;
     left: 5%;
 }
 
@@ -68,36 +60,33 @@ position: relative;
 }
 
 
-.searchBox{
+ .searchBox{
     position: relative;
     margin: 0 auto;
-  left: 5%;
-  top: 80px;
+    height: 25px;
+ 
+
 
 }
 
 #searchButton{
-     height: 25px;
     border-radius: 5px;
-    position: relative;
     z-index: 5;
-    bottom: 30vh;
-    left: 40vw; 
     width: 30px;
+    height: 25px;
 }
 
 #search{
     height: 25px;
     border-radius: 5px;
-    position: relative;
+    
     z-index: 5;
-    bottom: 30vh;
-    left: 40vw;    
+     
     
   
 
     
-}
+} */
 
 .pokeName
 {
@@ -119,11 +108,15 @@ position: relative;
   }
 
   #pokemonImage{
-    width: 40%;
+    width:40%;
+    position: relative;
+    top: 10px;
   }
 
   #pokemonImage2{
     width: 40%;
+    position: relative;
+top: 10px;
   }
 
   .pokemon img{
@@ -147,15 +140,7 @@ position: relative;
     position: relative;
   }
 
-  .pokeTypeTwo{
-    width: 50%;
-    background-color: red;
-    border-radius: 15px;
-    margin: 0 auto;
-    bottom: 50px;
-    position: relative;
-    text-align: center;
-  }
+ 
 
   .mainContent{
     text-align: center;
