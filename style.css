@@ -73,7 +73,7 @@ position: relative;
     border-radius: 5px;
     z-index: 5;
     width: 30px;
-    height: 25px;
+        height: 25px;
 }
 
 #search{
@@ -99,7 +99,7 @@ position: relative;
 #pokeImage {
     width: 90%;
     height:fit-content;
-    background: rgb(101, 10, 10);
+
     border-radius: 20px;
     position: relative;
     margin: 0 auto;
@@ -157,14 +157,9 @@ top: 10px;
   }
 
   .attributes{
-    background-color: red;
-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-backdrop-filter: blur(2.7px);
--webkit-backdrop-filter: blur(2.7px);
 margin: 0 auto;
-background-color: rgb(173, 56, 56);
 border-radius: 15px;
-  }
+}
 
   .attributes ul li{
 list-style-type: none;

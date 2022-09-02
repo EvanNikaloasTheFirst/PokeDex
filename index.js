@@ -73,3 +73,6 @@ submitBtn.addEventListener("click", function obtainPokemon(){
 
     })
 })
+.catch(error => {
+    alert(error)
+  }) ; 
