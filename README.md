@@ -7,8 +7,10 @@ TO USE THE APPLICATION:
 Simply type in a Pokemon's name within the search bar and the following details about that pokemon will return to the screen.
 
 Example 
-1 . Pikachu
+1. Type in "Pikachu"
 2. Click enter or click the search button
+3. Results presented
+
 
 Live website: -> 
 https://evannikaloasthefirst.github.io/PokeDex/
